@@ -1,0 +1,70 @@
+/* General reset for padding and margin */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: grey;
+  }
+  
+  /* Navbar styles */
+  nav{
+    display: flex;
+    justify-content: center;
+    background-color:skyblue;
+    padding: 10px 0;
+    gap: 20px;
+;
+  }
+  
+  nav a {
+    color: black;
+    text-decoration: none;
+    padding: 14px 20px;
+    margin: 0 10px;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 2px solid #04AA6D;
+    background-color: grey;
+  }
+  
+  nav a:hover {
+    background-color:goldenrod;
+    color: skyblue;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  
+  /* nav a[href="#work"]:hover,
+  nav a[href="#resume"]:hover {
+    background-color: skyblue;
+    color: red;
+  } */
+  
+  /* Image styling */
+  img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  form{
+    background-color: skyblue;
+    border: 2px solid #333; 
+    padding: 20px; /* Added padding inside the form */
+    border-radius: 10px; 
+    width: 50%;
+    margin: 10px;
+  }
+  footer{
+    text-align: center;
+  }
+  
+  
